@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+.navbar {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+
+.nav-left .brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-center {
+    display: inline-block;
+    background-color: white;
+    border-radius: 15px ;
+    border: 1px solid grey;
+    padding: 5px 10px;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 10px;
+    position: relative;
+}
+
+.nav-item a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav-item a:hover {
+    background-color: #eaeaea;
+    border-radius: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: 1px solid grey;
+    border-radius: 0 0 5px 5px;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #eaeaea;
+}
+
+.nav-item.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.nav-right {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    margin-right: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.request-demo {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+
+.cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 30%;
+    margin: 10px 0;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid grey;
+    position: relative;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 2px dashed grey;
+    border-radius: 10px;
+}
+
+.card-header {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+
+.card-rating {
+    text-align: left;
+    font-size: 18px;
+    color: gold;
+}
+
+
+.card-line {
+    border: none;
+    border-top: 1px solid grey;
+    margin: 10px 0;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-info {
+    text-align: left;
+}
+
+.profile-name {
+    font-weight: bold;
+    margin: 0;
+}
+
+.profile-job {
+    margin: 0;
+    color: grey;
+}
+
+
+.single-card {
+    background-color: white;
+    width: 50%;
+    margin: 30px auto;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    position: relative;
+    text-align: center;
+}
+
+.single-card::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 2px dashed grey;
+    border-radius: 10px}
+
+.img-fluid{ width: 100%; height: auto;}
+button{ 
+    margin-top:2px;
+    padding-top: 3px;
+    color: green;
+    border:1px solid  green; 
+    border-radius: 15px;}
+
+    .color-test{ color: black;}

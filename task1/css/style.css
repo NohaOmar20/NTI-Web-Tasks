@@ -1,0 +1,161 @@
+
+ /* Normalize elements */
+ *{padding: 0; margin: 0;box-sizing: border-box;}
+
+ /* display settings */
+.inline-block{ 
+    display: inline-block;    
+     vertical-align: top;
+}
+
+/* text settings */
+.text-white{ color: white;}
+.text-black{ color: black}
+.text-center{ text-align: center}
+.text-left{ text-align: left;}
+.text-captilized{text-transform: capitalize;}
+.text-uppercase{text-transform: uppercase;}
+.justify{text-align: justify;}
+.img-fluid{ width: 100%; height: auto;}
+.main-color{ color:black;}
+
+.mainbg{background-color:white;}
+.main-heading{ margin-bottom: 1.5%;}
+.box-shadow-b{box-shadow: 0 2px #cdcccc;}
+
+/* main sizing */
+.row{
+    margin:auto;
+   padding: auto;;
+}
+.container {
+    width: 90%;
+}
+
+.d-flex{ display: flex;}
+.sace-between{justify-content: space-between;}
+
+.px { padding:0 2.5%;} 
+.m{margin: 5% auto }
+.my{ margin: 5% auto}
+
+.col-5{ width:30%; }
+.col-7{ width:60%; }
+.col-12{ width: 2%;  }
+
+.col-2{ 
+    width: 45%;
+    margin: 0; padding: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    /*border: solid 2px black*/
+    box-shadow: 2px 2px #cdcccc;
+}
+
+
+.col-6{width:49%; display: inline-block;}
+
+
+
+/*---header-nav-background---*/
+.header-nav-container {
+    background: url('../images/hbg.jpg') no-repeat center center;
+    background-size: cover;
+}
+/*---------------------------main page parts-------------*/
+/* ----- nav-bar------*/
+nav{
+    margin: 0 auto;
+     /*position: fixed;*/
+     top: 0;
+    height: 3rem;
+    border-bottom: 1px solid grey; /* Grey bottom border */
+    z-index: 1000; /* Ensures the nav stays on top */
+
+}
+.world{padding-right: 50%;}
+.nav-words{padding: 0.8% 0.8%;}
+
+/*-------header----*/
+header{
+    margin-top: 3rem; /* Space for the fixed nav */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    height: 10rem;
+}
+/* ----------footer--------*/
+footer{
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    height: 7rem;
+}
+/* -----main part-----*/
+main{ 
+    background-color: #f0f0f0;
+    min-height: calc(100vh - 20rem)
+}
+/*-----aside-------*/
+aside{ 
+    width:30% ;
+    box-shadow: -2px 2px #cdcccc;
+    min-height: calc(100vh - 20rem)
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff
+}
+
+.content-padding{ 
+    padding: 2%;
+    height: 100px;
+    line-height: normal;
+    overflow: hidden;
+   
+}
+  /*part 1 in main*/
+
+  .container-main-1{
+    width: 100%; 
+    margin: 5px;
+    box-shadow: 2px 2px #cdcccc;
+   }
+   .container-main-2{
+    width: 90%; 
+    margin: 5px;
+    box-shadow: 2px 2px #cdcccc;
+   }
+    
+.image-text-container {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    height: 100px;
+}
+
+.image-text-container img {
+    width: 33.33%; /* Image takes up 1/3 of the container's width */
+    height: 100%;
+    object-fit: fill;
+    margin-right: 10px; /* Optional: adds space between the image and text */
+  
+}
+
+.text-content {
+    width: 66.67%; /* Text content takes up the remaining 2/3 of the container's width */
+    overflow-wrap: break-word;
+    height: 100%;
+    overflow: hidden;
+    flex: 1;
+    margin: 0;
+    }
+
+.color-test{ color: black;}
+

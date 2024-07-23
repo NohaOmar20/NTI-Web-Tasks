@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+/*nav part*/
+p, a, span, div{
+    font-size: 1.25rem
+}
+ul{
+    list-style: none;
+}
+.bold{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+a{
+    color:white;
+}
+/* a:active{} */
+/* a:visited{} */
+a:hover{}
+img{ max-width: 100%; }
+.text-gold{color:#D4A750;}
+.text-dark{color:#000000;}
+.text-white{color:white;}
+.bg-gold{background-color: #D4A750;}
+.bg-dark{background-color: black;}
+.container{ width:90%; margin: 0 auto;}
+.d-flex{ display: flex;}
+.space-between{ justify-content: space-between;}
+.py-1{ padding: 1% 0;}
+#logo{ width:4.5rem;}
+.active{
+    color: #D4A750;
+}
+/* .nav-item { 
+    margin: 0 2%;
+} */
+/* .nav-item:hover{
+    background-color: #D4A750;
+    color: #000000;
+} */
+.nav-items{
+    width:40%;
+    align-self: center;
+}
+.nav-items ul{
+    width:100%
+}
+.drop-down{
+    display: none;
+}
+.header-container{
+    background: url('../images/headerbg.jpg') no-repeat center center;
+    background-size: cover;
+}
+header{
+    height: 30rem;
+    min-height: 10rem;
+    width: 100%;
+
+}
+p.textformat{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+}
+/* Youtube section part*/
+/*sizing*/
+.container{ width: 90%;margin: 0 auto;}
+.py-5{padding: 5%;}
+.m-2{margin: 2%;}
+.row { display: flex; flex-wrap: wrap; margin: 2%;}
+.position-relative{ position: relative;}
+
+.col-l2{
+    width: 50%;
+    padding: 5%;
+
+}
+.col-r2{
+    width: 50%;
+    padding: 5%;
+}
+
+/* Our serv sec*/
+.box-shadow{}
+.py{ padding: 3% 0;}
+.text-center{ text-align: center;}
+.h-color{ color: #d4a750;}
+.h-bottom-line{ width: 100%; background-color: black; border: 1px solid black;}
+.my-4{ margin-top: 1rem; margin-bottom: 1rem;}
+.justify-content-center {justify-content: center;}
+.align-items-center{align-items: center;}
+
+.col-12{
+    flex: 0 0 auto;
+    width: 100%;
+}
+img{vertical-align: middle;}
+.img-card-width{ width: 100%;}
+.content-justufy{ text-align: justify; overflow: hidden;}
+.color-test{
+    color: #D4A750;
+}
+
+
+

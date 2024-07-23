@@ -53,17 +53,28 @@ img{ max-width: 100%; }
     display: none;
 }
 /* header part*/
-.header-container{
+.header-container {
+    position: relative;
+    overflow: hidden;  
+}
+
+.header-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background: url('../images/headerbg.jpg') no-repeat center center;
     background-size: cover;
     animation: zoomBackground 30s infinite;
-    position: relative;
+    z-index: -1;  
 }
 header{
     height: 30rem;
     min-height: 10rem;
     width: 100%;
-    overflow: hidden;
+    position: relative;
 
 }
 p.textformat{
@@ -80,7 +91,7 @@ p.textformat{
         transform: scale(1);
     }
     50% {
-        transform: scale(1.1);  /* Adjust the scale value as needed */
+        transform: scale(1.1);  
     }
     100% {
         transform: scale(1);

@@ -20,9 +20,7 @@ a{
 a{
     color:white;
 }
-/* a:active{} */
-/* a:visited{} */
-a:hover{}
+
 img{ max-width: 100%; }
 .text-gold{color:#D4A750;}
 .text-dark{color:#000000;}
@@ -54,14 +52,18 @@ img{ max-width: 100%; }
 .drop-down{
     display: none;
 }
+/* header part*/
 .header-container{
     background: url('../images/headerbg.jpg') no-repeat center center;
     background-size: cover;
+    animation: zoomBackground 30s infinite;
+    position: relative;
 }
 header{
     height: 30rem;
     min-height: 10rem;
     width: 100%;
+    overflow: hidden;
 
 }
 p.textformat{
@@ -71,6 +73,18 @@ p.textformat{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2rem;
+    z-index: 1;
+}
+@keyframes zoomBackground {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);  /* Adjust the scale value as needed */
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 /* Youtube section part*/
 /*sizing*/
@@ -89,29 +103,57 @@ p.textformat{
     width: 50%;
     padding: 5%;
 }
+/* Our serv sec */
+.box-shadow {
+    box-shadow: 5px 5px 2px 0px rgba(106, 104, 104, 0.75);
+}
+.py {
+    padding: 3% 0;
+}
+.px{padding: 1.5rem}
 
-/* Our serv sec*/
-.box-shadow{}
-.py{ padding: 3% 0;}
-.text-center{ text-align: center;}
-.h-color{ color: #d4a750;}
-.h-bottom-line{ width: 100%; background-color: black; border: 1px solid black;}
-.my-4{ margin-top: 1rem; margin-bottom: 1rem;}
-.justify-content-center {justify-content: center;}
-.align-items-center{align-items: center;}
 
-.col-12{
+.text-center {
+    text-align: center;
+}
+.h-color {
+    color: #d4a750;
+}
+.h-bottom-line {
+    width: 100px;
+    background-color: black;
+    border: 1px solid black;
+    
+}
+.my {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.m-1{
+    margin: 1%;
+}
+.justify-content-center {
+    justify-content: center;
+    text-align: center;
+}
+.align-items-center {
+    align-items: center;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-3 {
     flex: 0 0 auto;
+    width: 30.33%;
+}
+img {
+    vertical-align: middle;
+}
+.img-card-width {
     width: 100%;
 }
-img{vertical-align: middle;}
-.img-card-width{ width: 100%;}
-.content-justufy{ text-align: justify; overflow: hidden;}
-
-
-.color-test{
-    color: black;
+.content-justufy {
+    text-align: justify;
+    overflow: hidden;
 }
-
-
-

@@ -1,0 +1,54 @@
+.main-color *{
+    color: #224F34 ;
+
+}
+.bg-light-green{
+    background: #C2EFD4;
+
+}
+ /* Rivo */
+.rivo-font{
+font-family: 'Elephant';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 49px;
+color: #224F34;
+}
+.headers-font{
+        font-family: "Roboto Slab", serif;
+}
+.btn-outline{
+   border-color:  #224F34;
+}
+.btn-m-color{
+    background-color: #224F34;
+
+}
+.light-g-color{
+   color:  #267D49;
+   
+}
+.rufina-regular {
+    font-family: "Rufina", serif;
+    
+}
+
+/* Rectangle 26 */
+.pic-box{
+ position:fixed;
+width: 35%; 
+height: 50%;
+/* left: 983px;
+top: calc(50% - 717px/2 + 34px); */
+background: #6BC785;
+border-radius: 141px 45px 150px 82px;
+
+}
+
+
+
+
+
+
+

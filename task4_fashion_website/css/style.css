@@ -18,6 +18,10 @@ color: #224F34;
 .headers-font{
         font-family: "Roboto Slab", serif;
 }
+#hero h1,
+#hero p{
+    width: 65%;
+}
 .btn-outline{
    border-color:  #224F34;
 }

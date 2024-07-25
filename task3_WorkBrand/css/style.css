@@ -35,13 +35,7 @@ img{ max-width: 100%; }
 .active{
     color: #D4A750;
 }
-/* .nav-item { 
-    margin: 0 2%;
-} */
-/* .nav-item:hover{
-    background-color: #D4A750;
-    color: #000000;
-} */
+
 .nav-items{
     width:40%;
     align-self: center;
@@ -91,7 +85,7 @@ p.textformat{
         transform: scale(1);
     }
     50% {
-        transform: scale(1.1);  
+        transform: scale(1.3);  
     }
     100% {
         transform: scale(1);
@@ -129,11 +123,16 @@ p.textformat{
 }
 .h-color {
     color: #d4a750;
+   
 }
 .h-bottom-line {
     width: 100px;
     background-color: black;
     border: 1px solid black;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto ;
+    
     
 }
 .my {

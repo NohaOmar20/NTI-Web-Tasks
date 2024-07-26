@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -19,9 +20,9 @@
 
 <body>
   <section id="nav-header" class="bg-light-green ">
-    <nav class="navbar navbar-expand-lg py-4 main-color">
+    <nav class="navbar navbar-expand-lg main-color">
       <div class="container">
-        <a class="navbar-brand rivo-font" href="#">Rivo</a>
+        <a class="navbar-brand rivo-font main-color" href="#">Rivo</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -37,13 +38,13 @@
             <li class="nav-item mx-2">
               <a class="nav-link" href="#">features</a>
             </li>
-  
+
             <li class="nav-item mx-2">
               <a class="nav-link" aria-disabled="true">contact</a>
             </li>
           </ul>
           <div class="d-flex">
-  
+
             <button class="btn btn-outline text-uppercase fw-semibold main-color" type="submit"> log in </button>
           </div>
         </div>
@@ -51,21 +52,23 @@
     </nav>
     <!-- hero section -->
     <section id="hero">
-      <div class="container my-5">
+      <div class="container">
         <div class="row">
           <div class="col-md-6">
             <div class="main-color">
-              <h1 class="text-left rufina-regular fw-bold fs-1 text mb-3">Discover and Find Your Own Fashion!</h1>
-            <p class="light-g-colorfs-5 fw-semibold mb-4"> Explore our curated collection of stylish clothing and accessories tailored to your unique taste</p>
+              <h1 class="text-left rufina-regular fw-bold fs-1 mb-3">Discover and Find Your Own Fashion!</h1>
+              <p class="light-g-colorfs-5 fw-semibold mb-4"> Explore our curated collection of stylish clothing and
+                accessories tailored to your unique taste</p>
             </div>
-            <button class="btn btn-lg btn-m-color rounded-0"> 
-              <span class="text-uppercase text-white m-2 fs-6" > Explore Now</span>
+            <button class="btn btn-lg btn-m-color rounded-0">
+              <span class="text-uppercase text-white m-2 fs-6"> Explore Now</span>
             </button>
 
           </div>
-          <div class="col-md-6">
-            <div class="pic-box">
-              <img src="../task4_fashion_website/images/header-lady.png" class="img-fluid">
+          <div class="col-md-6 pic-bg">
+            <div class=" text-center">
+              <img src="../task4_fashion_website/images/header-lady.png" alt="h-pic" id="h-pic"
+                class="img-fluid mx.auto">
 
             </div>
           </div>
@@ -74,26 +77,450 @@
     </section>
   </section>
   <!-- best selling section -->
-   <section id="best-selling">
-    <h2 class=""></h2>
-    <p></p>
+  <section id="best-selling my-5">
+    <div class="main-color fw-bold ">
+      <h1 class=" robot-salab mb-4 text-center fs-1 my-3"> Best Selling</h1>
+      <p class="mb-5 text-center "> Get in on the trend with our curated selection of best-selling styles.</p>
+
+    </div>
     <div class="container">
       <div class="row">
         <!-- card 1 -->
-        <div class="col-md-4"></div>
+        <div class="col-md-4 px-3">
+          <div class="card h-100 border-0">
+            <div class=" text-center product-1">
+              <img src="images/s-pic1.png" class="card-img-top" alt="product-1" class="img-fluid m-auto">
+            </div>
+            <div class="card-body text-center">
+
+              <h5 class="card-title my-3"> Regular Fit Long Sleeve Top</h5>
+              <div class="row">
+                <div class="left w-50 border-end border-end-5"> $38.99</div>
+                <div class="right w-50 "> 5.0 &#9734;</div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
         <!-- card 2 -->
-        <div class="col-md-4"></div>
+        <div class="col-md-4 px-3">
+          <div class="card h-100 border-0">
+
+            <div class="product-2 text-center">
+              <img src="images/s-pic2.png" class="card-img-top" alt="product-2">
+            </div>
+
+            <div class="card-body text-center">
+              <h5 class="card-title my-3"> Black Crop Tailored Jacket</h5>
+              <div class="row">
+                <div class="left w-50 border-end border-end-5"> $62.99</div>
+                <div class="right w-50 "> 4.9 &#9734;</div>
+
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
         <!-- card 3 -->
-        <div class="col-md-4"></div>
-        
+        <div class="col-md-4 px-3">
+          <div class="card h-100 border-0">
+
+            <div class="product-3 text-center">
+              <img src="images/s-pic3png.png" class="card-img-top" alt="product-3">
+            </div>
+
+            <div class="card-body text-center">
+              <h5 class="card-title my-3"> Textured Sunset Shirt</h5>
+              <div class="row">
+                <div class="left w-50 border-end border-end-5"> $49.99</div>
+                <div class="right w-50 "> 5.0 &#9734;</div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="text-center main-color my-5">
+        <button class="btn btn-lg btn-outline rounded-1 border-2">
+          <p class="  m-2 fs-3"> See all </p>
+
+          <div class="main-color"> <i class="bi bi-arrow-right"></i></div>
+        </button>
 
       </div>
 
     </div>
 
 
-   </section>
-  
+  </section>
+  <!-- products section -->
+  <section id=" products" class="my-5">
+    <div class=" main-color">
+      <h1 class=" robot-salab text-center fw-bold fs-1 mb-5">Our Products</h1>
+    </div>
+    <div class="d-flex justify-content-center">
+      <div class=" mb-5 text-black">
+        <ul class="list-group list-group-horizontal text-uppercase fw-bold border-0">
+          <li class="list-group-item border-0 px-5">SALE</li>
+          <li class="list-group-item selcted border-0 px-5 "> Hot</li>
+          <li class="list-group-item border-0 px-5">new arrivals</li>
+          <li class="list-group-item border-0 px-5"> accessories</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-md-3">
+          <div class="card border-0">
+            <div class="text-center">
+              <img src="images/product-1.png" class="card-img-top" alt="">
+            </div>
+
+            <div class="card-body text-center">
+              <h5 class="card-title my-3"> Spread Collar Shirt</h5>
+              <div class="row">
+                <div class="left w-50 border-end border-end-5"> $49.99</div>
+                <div class="right w-50 "> 5.0 &#9734;</div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0">
+            <div class="text-center">
+              <img src="images/product-7.png" class="card-img-top" alt="">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title my-3"> Spread Collar Shirt</h5>
+              <div class="row">
+                <div class="left w-50 border-end border-end-5"> $49.99</div>
+                <div class="right w-50 "> 5.0 &#9734;</div>
+
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0">
+            <div class="text-center">
+              <img src="images/product-5.png" class="card-img-top" alt="">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title my-3"> Spread Collar Shirt</h5>
+              <div class="row">
+                <div class="left w-50 border-end border-end-5"> $49.99</div>
+                <div class="right w-50 "> 5.0 &#9734;</div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0">
+            <div class="text-center">
+              <img src="images/product-4.png" class="card-img-top" alt="">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title my-3"> Spread Collar Shirt</h5>
+              <div class="row">
+                <div class="left w-50 border-end border-end-5"> $49.99</div>
+                <div class="right w-50 "> 5.0 &#9734;</div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card border-0">
+            <div class="text-center">
+              <img src="images/product-5.png" class="card-img-top" alt="">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title my-3"> Spread Collar Shirt</h5>
+              <div class="row">
+                <div class="left w-50 border-end border-end-5"> $49.99</div>
+                <div class="right w-50 "> 5.0 &#9734;</div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0">
+            <div class="text-center">
+              <img src="images/product-4.png" class="card-img-top" alt="">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title my-3"> Spread Collar Shirt</h5>
+              <div class="row">
+                <div class="left w-50 border-end border-end-5"> $49.99</div>
+                <div class="right w-50 "> 5.0 &#9734;</div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0">
+            <div class="text-center">
+              <img src="images/product-7.png" class="card-img-top" alt="">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title my-3"> Spread Collar Shirt</h5>
+              <div class="row">
+                <div class="left w-50 border-end border-end-5"> $49.99</div>
+                <div class="right w-50 "> 5.0 &#9734;</div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0">
+            <div class="text-center">
+              <img src="images/product-1.png" class="card-img-top" alt="">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title my-3"> Spread Collar Shirt</h5>
+              <div class="row">
+                <div class="left w-50 border-end border-end-5"> $49.99</div>
+                <div class="right w-50 "> 5.0 &#9734;</div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+  </section>
+  <!-- Exclusive Offer -->
+  <section id="exclusive-offer">
+    <div class="container bg-light-green">
+      <div class="row">
+        <div class="col-md-6">
+          <div>
+            <img src="images/exclusive-offer.png" alt="" class="">
+          </div>
+        </div>
+        <div class="col-md-6 align-self-center">
+          <h2 class="robot-salab mb-4">Exclusive Offer </h2>
+          <p class="mb-5"> Unlock the ultimate style upgrade with our exclusive offer Enjoy savings of up to 40% off on
+            our latest New Arrivals</p>
+
+          <button class="btn btn-lg btn-m-color rounded-0">
+            <span class="text-uppercase text-white m-2 fs-6"> Buy Now</span>
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- designer cloths section -->
+  <section id="designer-cloth" class="py-5">
+    <div class="container">
+      <div class="main-color fw-bold mb-4 ">
+        <h1 class="robot-salab text-center fw-bold fs-1 "> Designer Cloths For You</h1>
+        <p class="text-center mb-5"> Immerse yourself in the world of luxury fashion with our meticulously crafted
+          designer
+          clothes!</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card border-0">
+            <div class="">
+              <img src="images/designer-1.png" class="card-img-top" alt="">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title mt-3 mb-3">Accessories</h5>
+              <p class="card-text">
+                Complete your ensemble with designer accessories such as handbags, scarves, belts, and hats.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0">
+            <div class="">
+              <img src="images/designer-2.png" class="card-img-top" alt="">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title mt-3 mb-3">Dresses</h5>
+              <p class="card-text">
+                Explore a stunning range of designer dresses, including evening gowns and chic day dresses.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0">
+            <div class="">
+              <img src="images/designer-3.png" class="card-img-top" alt="">
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title mt-3 mb-3">Outerwear</h5>
+              <p class="card-text">
+                Browse luxurious designer coats, jackets, and blazers to stay stylishly warm during colder seasons.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </section>
+  <!-- feedback section -->
+  <section id="feedback" class="py-5">
+    <div class="container">
+      <h1 class=" robot-salab mb-5 text-center fw-bold fs-1"> Feedback Corner</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card border-0 bg-light">
+            <div class="card-body text-left robot-salab">
+              <div class=" qutation "> <i class="bi bi-quote"></i> </div>
+              <div class="main-color">
+                <h5 class="card-title mt-3 mb-3"> Emily Wilson</h5>
+                <p class="card-text">
+                  The customer experience was exceptional from start to finish. The website is user-friendly, the
+                  checkout process was smooth, and the clothes I ordered fit perfectly. I'm beyond satisfied!
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 bg-light-green">
+            <div class="card-body text-left robot-salab">
+              <div class=" qutation "> <i class="bi bi-quote"></i> </div>
+              <div class="main-color">
+                <h5 class="card-title mt-3 mb-3"> Sarah Thompson</h5>
+                <p class="card-text">
+                  I absolutely love the quality and style of the clothing I purchased from this website. customer
+                  service was outstanding, and I received my order quickly. Highly recommended!
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 bg-light">
+            <div class="card-body text-left robot-salab">
+              <div class=" qutation "> <i class="bi bi-quote"></i> </div>
+              <div class="main-color">
+                <h5 class="card-title mt-3 mb-3"> Sarah Thompson</h5>
+                <p class="card-text">
+                  I absolutely love the quality and style of the clothing I purchased from this website. customer
+                  service was outstanding, and I received my order quickly. Highly recommended!
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </section>
+
+  <footer id="footer" class="btn-m-color py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 text-white left">
+          <h1 class="rivo-font mb-4"> Rivo</h1>
+          <h5> Social media</h5>
+          <div class="social-icons">
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter"></i></a>
+            <a href="#" class="fab-instagram">
+              <i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h4 class="text-uppercase text-white"> Shop</h4>
+          <div class="btn-m-color light-g-font">
+            <ul class="list-group list-group-virtical border-0 ">
+              <li class="list-group-item selcted border-0 light-g-font"> Products</li>
+              <li class="list-group-item border-0 light-g-font">Overview</li>
+              <li class="list-group-item border-0 light-g-font">Pricing</li>
+              <li class="list-group-item border-0 light-g-font">Releases</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+          <h4 class="text-uppercase text-white"> Company</h4>
+          <div class="btn-m-color light-g-font">
+            <ul class="list-group list-group-virtical border-0">
+              <li class="list-group-item selcted border-0 light-g-font"> About</li>
+              <li class="list-group-item border-0 light-g-font">Contact</li>
+              <li class="list-group-item border-0 light-g-font">News</li>
+              <li class="list-group-item border-0 light-g-font">Support</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h4 class="text-uppercase text-white mb-4"> Stay Up to Date</h4>
+          <div class="">
+            <form class="d-flex">
+              <input type="email" class="form-control light-g-border border-end-0 rounded-0" placeholder="Enter your email">
+              <button type="submit" class="btn btn-primary bg-light-green light-g-border border-start-0 text-uppercase rounded-0">Submit</button>
+          </form>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="text-white text-center mt-4">
+        <hr>
+        <p>Terms | Privacy | Cookies</p>
+    </div>
+    </div>
+  </footer>
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

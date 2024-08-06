@@ -88,9 +88,6 @@ p {
     float:left;
     background-color: #ffffff;
     color: #ffffff;
-    width:30%!important;
- 
-    margin: 2px;
     display: none; 
   }
   .show {
@@ -112,6 +109,41 @@ p {
   .btn.active {
     color:#0c65ed
   }
+  /* ----filter img hover ---*/
+  .filter-col{
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    margin-top: 30px;
+   
+   
+   
+
+    
+}
+.filter-det{
+    background-color: rgba(103, 144, 207, 0.7);
+    border-radius: 5px;
+    color:white;
+    overflow: hidden;
+    position: absolute;
+    width: 75%;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+   
+    height: 100%; 
+    top:70.5%;
+    opacity: 0; /* Initially hidden */
+    transform: rotateY(-180deg); /* Initial rotation */
+    backface-visibility: hidden;
+    transition: transform 0.7s ease-in-out, opacity 0.7s ease-in-out;
+   
+}
+.filter-col:hover .filter-det {
+    opacity: 1; /* Become visible on hover */
+    transform: rotateY(0deg); /* Rotate to original position */
+}
  
 /* team  */
 
@@ -146,3 +178,150 @@ p {
     top: 50%;
 }
 
+/* price */
+/* ---------- tabe ------- */
+.blue-main-color{
+    color: #0c65ed;
+}
+.toggle-btns {
+    display: inline-block;
+    border-radius: 50px;
+    overflow: hidden;
+    border: 1px solid #007bff;
+}
+.toggle-btn {
+    padding: 10px 20px;
+    color: #007bff;
+    border: none;
+    background: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.toggle-btn.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-toggle {
+    margin: 10px;
+}
+.pricing-plan {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center; 
+    margin-bottom: 20px; 
+     border-radius: 0; 
+}
+.pricing{
+    width: 300px;
+    height:530px ;
+}
+
+.hidden {
+    display: none;
+}
+.btn-w{
+    height: 2.8rem;
+    width: 10rem;
+}
+.sub{
+    width: 100%!important;
+    height:200px;
+    background-color: rgb(19, 17, 17)!important;
+   }
+/* ---------subscribe---------- */
+.form-subscribe .form-control {
+    padding: 12px 20px;
+    border: 0;
+    height: 43px;
+}
+.btn-custom-size {
+    padding: 1rem 1rem; 
+    font-size: 1rem; 
+  }
+
+  /* --- clinte --- */
+  .client-item {
+    position: relative;
+    padding: 25px 20px;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.client-img {
+    width: 124px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.client2-detail {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 18px;
+}
+
+/* cards  */
+
+.card{
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+} 
+.card .imageh {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+}
+.card:hover .imageh img{
+    transform: rotate(-13deg) scale(1.3);
+    
+}
+.card:hover .s{
+    background-color: #007bff !important;
+}
+.card:hover .ic{
+ margin-left: 1rem!important;
+
+}
+.gray-line {
+    border: none;
+    border-top: 1px solid gray;
+    margin: 10px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover .gray-line {
+    border-top: 2px solid #007bff;
+    width: 50%;
+}
+.card:hover .card-title {
+    color: #007bff;
+}
+/* talk us */
+.talk-us {
+    background-color: #0c65ed;
+    padding: 53px 0;
+    position: relative;
+    text-decoration: #fff;
+}
+.talk-us .btn-custom {
+    float: right;
+    font-size: 18px;
+    background-color: #fff;
+    color: #0c65ed;
+    padding: 13px 38px 10px;
+}
+.btn-custom {
+    border-radius: 50px;
+    text-transform: capitalize;
+    line-height: 1;
+    font-weight: 600;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}

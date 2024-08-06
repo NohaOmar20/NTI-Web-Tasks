@@ -84,7 +84,7 @@ jQuery(document).ready(function ($) {
 	owl.owlCarousel({
         dots:false,
 		autoplay: false,
-		autoplayTimeout: 900,
+		autoplayTimeout: 1000,
 		autoplayHoverPause: true,
 		// items: 3,
 		loop: true,

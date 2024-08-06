@@ -241,7 +241,18 @@ p {
     font-size: 1rem; 
   }
 
-  /* --- clinte --- */
+  /* --- clinte  slider --- */ 
+ 
+.owl-carousel {
+	.owl-stage {
+		display: flex;
+	}
+	.owl-item {
+		display: flex;
+		flex: 1 0 auto;
+        
+	}
+} 
   .client-item {
     position: relative;
     padding: 25px 20px;
@@ -250,7 +261,7 @@ p {
     background-color: #fff;
 }
 .client-img {
-    width: 124px;
+    
     display: table-cell;
     vertical-align: middle;
 }
@@ -258,6 +269,7 @@ p {
     display: table-cell;
     vertical-align: middle;
     text-align: left;
+    padding-left: 18px;
     padding-left: 18px;
 }
 

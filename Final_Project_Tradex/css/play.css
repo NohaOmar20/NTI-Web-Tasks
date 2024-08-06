@@ -6,9 +6,9 @@
 	.owl-item {
 		display: flex;
 		flex: 1 0 auto;
-        width: 100%;
+        
 	}
-	.thumbnail {
+	/* .thumbnail {
 		display: flex;
 		flex-direction: column;
         
@@ -31,9 +31,12 @@
 				flex-grow: 1;
 			}
 		}
-	}
+	} */
 }
 /* ccccccc */
+.blue-main-color{
+    color: #0c65ed;
+}
 .client-item {
     position: relative;
     padding: 25px 20px;
@@ -42,7 +45,7 @@
     background-color: #fff;
 }
 .client-img {
-    width: 124px;
+    
     display: table-cell;
     vertical-align: middle;
 }
@@ -50,5 +53,6 @@
     display: table-cell;
     vertical-align: middle;
     text-align: left;
+    padding-left: 18px;
     padding-left: 18px;
 }

@@ -5,7 +5,7 @@ jQuery(document).ready(function ($) {
 		autoplay: false,
 		autoplayTimeout: 900,
 		autoplayHoverPause: true,
-		items: 3,
+		// items: 3,
 		loop: true,
 		center: false,
 		rewind: false,
@@ -17,7 +17,7 @@ jQuery(document).ready(function ($) {
 		stagePadding: 0,
 		merge: false,
 		mergeFit: true,
-		autoWidth: true,
+		autoWidth: false,
 		startPosition: 0,
 		rtl: false,
 		smartSpeed: 250,
@@ -38,7 +38,7 @@ jQuery(document).ready(function ($) {
 				loop: false
 			},
 			992: {
-				items: 3,
+				items: 2,
 				nav: true,
 				loop: false
 			}

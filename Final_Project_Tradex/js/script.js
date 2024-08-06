@@ -59,19 +59,19 @@ function showPlans(planType) {
   const yearlyBtn = document.getElementById('yearly-btn');
 
   if (planType === 'monthly') {
-      monthlyPlans.style.display = 'flex';
-      yearlyPlans.style.display = 'none';
-      monthlyBtn.classList.add('btn-primary');
-      monthlyBtn.classList.remove('btn-secondary');
-      yearlyBtn.classList.add('btn-secondary');
-      yearlyBtn.classList.remove('btn-primary');
+    monthlyPlans.style.display = 'flex';
+    yearlyPlans.style.display = 'none';
+    monthlyBtn.classList.add('btn-primary');
+    monthlyBtn.classList.remove('btn-secondary');
+    yearlyBtn.classList.add('btn-secondary');
+    yearlyBtn.classList.remove('btn-primary');
   } else if (planType === 'yearly') {
-      monthlyPlans.style.display = 'none';
-      yearlyPlans.style.display = 'flex';
-      monthlyBtn.classList.add('btn-secondary');
-      monthlyBtn.classList.remove('btn-primary');
-      yearlyBtn.classList.add('btn-primary');
-      yearlyBtn.classList.remove('btn-secondary');
+    monthlyPlans.style.display = 'none';
+    yearlyPlans.style.display = 'flex';
+    monthlyBtn.classList.add('btn-secondary');
+    monthlyBtn.classList.remove('btn-primary');
+    yearlyBtn.classList.add('btn-primary');
+    yearlyBtn.classList.remove('btn-secondary');
   }
 }
 
@@ -80,76 +80,76 @@ showPlans('monthly');
 
 // Slider responsive owl 
 jQuery(document).ready(function ($) {
-	var owl = $("#owl-demo-2");
-	owl.owlCarousel({
-        dots:false,
-		autoplay: false,
-		autoplayTimeout: 1000,
-		autoplayHoverPause: true,
-		// items: 3,
-		loop: true,
-		center: false,
-		rewind: false,
-		mouseDrag: true,
-		touchDrag: true,
-		pullDrag: true,
-		freeDrag: false,
-		margin: 0,
-		stagePadding: 0,
-		merge: false,
-		mergeFit: true,
-		autoWidth: false,
-		startPosition: 0,
-		rtl: false,
-		smartSpeed: 250,
-		fluidSpeed: false,
-		dragEndSpeed: false,
-		responsive: {
-			0: {
-				items: 1
-				// nav: true
-			},
-			480: {
-				items: 2,
-				nav: false
-			},
-			768: {
-				items: 2,
-				// nav: true,
-				loop: false
-			},
-			992: {
-				items: 2,
-				nav: true,
-				loop: false
-			}
-		},
-		responsiveRefreshRate: 200,
-		responsiveBaseElement: window,
-		fallbackEasing: "swing",
-		info: false,
-		nestedItemSelector: false,
-		itemElement: "div",
-		stageElement: "div",
-		refreshClass: "owl-refresh",
-		loadedClass: "owl-loaded",
-		loadingClass: "owl-loading",
-		rtlClass: "owl-rtl",
-		responsiveClass: "owl-responsive",
-		dragClass: "owl-drag",
-		itemClass: "owl-item",
-		stageClass: "owl-stage",
-		stageOuterClass: "owl-stage-outer",
-		grabClass: "owl-grab",
-		autoHeight: false,
-		lazyLoad: false
-	});
+  var owl = $("#owl-demo-2");
+  owl.owlCarousel({
+    dots: false,
+    autoplay: false,
+    autoplayTimeout: 1000,
+    autoplayHoverPause: true,
+    // items: 3,
+    loop: true,
+    center: false,
+    rewind: false,
+    mouseDrag: true,
+    touchDrag: true,
+    pullDrag: true,
+    freeDrag: false,
+    margin: 0,
+    stagePadding: 0,
+    merge: false,
+    mergeFit: true,
+    autoWidth: false,
+    startPosition: 0,
+    rtl: false,
+    smartSpeed: 250,
+    fluidSpeed: false,
+    dragEndSpeed: false,
+    responsive: {
+      0: {
+        items: 1
+        // nav: true
+      },
+      480: {
+        items: 2,
+        nav: false
+      },
+      768: {
+        items: 2,
+        // nav: true,
+        loop: false
+      },
+      992: {
+        items: 2,
+        nav: true,
+        loop: false
+      }
+    },
+    responsiveRefreshRate: 200,
+    responsiveBaseElement: window,
+    fallbackEasing: "swing",
+    info: false,
+    nestedItemSelector: false,
+    itemElement: "div",
+    stageElement: "div",
+    refreshClass: "owl-refresh",
+    loadedClass: "owl-loaded",
+    loadingClass: "owl-loading",
+    rtlClass: "owl-rtl",
+    responsiveClass: "owl-responsive",
+    dragClass: "owl-drag",
+    itemClass: "owl-item",
+    stageClass: "owl-stage",
+    stageOuterClass: "owl-stage-outer",
+    grabClass: "owl-grab",
+    autoHeight: false,
+    lazyLoad: false
+  });
 
-	$(".next").click(function () {
-		owl.trigger("owl.next");
-	});
-	$(".prev").click(function () {
-		owl.trigger("owl.prev");
-	});
+  $(".next").click(function () {
+    owl.trigger("owl.next");
+  });
+  $(".prev").click(function () {
+    owl.trigger("owl.prev");
+  });
 });
 
